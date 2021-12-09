@@ -1,0 +1,452 @@
+/*=======================
+extra small device css starts
+=========================*/
+@media(max-width:575px){
+    /*navbar part starts */
+    .navbar .navbar-brand{
+        position:unset !important;
+        transform:skew(0deg) !important;
+        -webkit-transform:skew(0deg) !important;
+        -moz-transform:skew(0deg) !important;
+        -ms-transform:skew(0deg) !important;
+        -o-transform:skew(0deg) !important;
+        padding:0 20px !important;
+    }
+    .navbar .navbar-brand img{
+        transform:skew(0deg) !important;
+    }
+    .navbar .navbar-toggler{
+        border-color:#fff;
+        margin-right:30px;
+    }
+    .navbar .navbar-toggler i{
+        color:#fff;
+    }
+    .navbar-light .navbar-nav{
+        background:rgba(53, 53, 53,0.6);
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link{
+        text-align:center;
+        color:#fff;
+    }
+    .navbar-light .navbar-nav .nav-link::before{
+        width:0%;
+        height:100%;
+        transition:all linear 0.4s;
+        -webkit-transition:all linear 0.4s;
+        -moz-transition:all linear 0.4s;
+        -ms-transition:all linear 0.4s;
+        -o-transition:all linear 0.4s;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::before{
+        width:100%;
+    }
+    /*navbar part ends */
+
+    /*banner part starts */
+    #banner .bg1 h1::before,
+    #banner .bg1 h1::after,
+    #banner .bg1 h4::before,
+    #banner .bg1 h4::after,
+    #banner .bg1 p::before,
+    #banner .bg1 p::after
+    {
+        display:none;
+    }
+    #banner .bg1 h4{
+        font-size:24px;
+    }
+    #banner .bg1 h1{
+        font-size:48px;
+    }
+    #banner .bg1 p {
+        padding: 0;
+    }
+    #banner .slick-dots{
+        bottom:36px;
+    }
+    /*banner part ends */
+
+    /*about part satrts */
+    #about{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+    #about .about-details p{
+        padding:0;
+    }
+    /*about part ends */
+
+    /*gallery part starts */
+    #gallery{
+        padding-bottom:50px;
+    }
+    /*gallery part ends */
+
+    /*team part starts */
+    #team .team-member {
+        margin-top:45px;
+    }
+    #team .tean-item{
+        margin-top:20px;
+    }
+    /*team part ends */
+
+    /*testimonial part satrts */
+    #testimonial{
+        padding-bottom:50px;
+    }
+    /*testimonial part ends */
+
+    /*membership part satrts */
+    #membership{
+        padding-bottom:50px;
+    }
+    #membership .member-price h3 span{
+        font-size:40px;
+    }
+    /*membership part ends */
+
+    /*counter part satrts */
+    #counter-up{
+        margin-bottom:20px;
+    }
+    #counter-up .counter-item{
+        margin-bottom: 20px;
+    }
+    /*counter part ends */
+
+    /*routine part satrts */
+    #routine{
+        padding-top:20px;
+        padding-bottom:50px;
+    }
+    #routine .nav-tabs .nav-item {
+        width:100%;
+        margin-bottom:2px !important;
+    }
+    #routine .main-routine ul li{
+        width:100%;
+    }
+    /*routine part ends */
+
+    /*footer part satrts */
+    footer  .footer-item  .opening-hours,
+    footer  .footer-item  .twitter-feed,
+    footer  .footer-item .footer-contact
+    {
+        margin-bottom:30px !important;
+        margin-left:10px;
+    }
+    /*footer part ends */
+}
+/*==========================
+extra small  device css ends
+============================*/
+
+
+/*========================
+ small device css starts
+=========================*/
+@media (min-width:576px) and (max-width:767px){
+    /*navbar part starts */
+    .navbar .navbar-brand{
+        position:unset !important;
+        transform:skew(0deg) !important;
+        -webkit-transform:skew(0deg) !important;
+        -moz-transform:skew(0deg) !important;
+        -ms-transform:skew(0deg) !important;
+        -o-transform:skew(0deg) !important;
+        padding:0 20px !important;
+    }
+    .navbar .navbar-brand img{
+        transform:skew(0deg) !important;
+    }
+    .navbar .navbar-toggler{
+        border-color:#fff;
+        margin-right:30px;
+    }
+    .navbar .navbar-toggler i{
+        color:#fff;
+    }
+    .navbar-light .navbar-nav{
+        background:rgba(53, 53, 53,0.6);
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link{
+        text-align:center;
+        color:#fff;
+    }
+    .navbar-light .navbar-nav .nav-link::before{
+        width:0%;
+        height:100%;
+        transition:all linear 0.4s;
+        -webkit-transition:all linear 0.4s;
+        -moz-transition:all linear 0.4s;
+        -ms-transition:all linear 0.4s;
+        -o-transition:all linear 0.4s;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::before{
+        width:100%;
+    }
+    /*navbar part ends */
+
+    /*banner part starts */
+    #banner .bg1 h4::before{
+        top: 7px;
+        left: -8px;
+    }
+    #banner .bg1 h4::after{
+        top: 7px;
+        right: -8px;
+    }
+    #banner .bg1 h1::before{
+        top: -34px;
+        left: -11px;
+    }
+    #banner .bg1 h1::after{
+        top: -34px;
+        right: -11px;
+    }
+    #banner .bg1 p::before{
+        width:67px;
+        height:3px;
+        bottom: -48px;
+        left: -10px;
+    }
+    #banner .bg1 p::after{
+        width:39px;
+        height:3px;
+        bottom: -48px;
+        right: -10px;
+    }
+    #banner .bg1 h4{
+        font-size:26px;
+    }
+    #banner .bg1 h1{
+        font-size:52px;
+    }
+    #banner .bg1 p {
+        padding: 0;
+    }
+    #banner .slick-dots{
+        bottom:36px;
+    }
+    /*banner part ends */
+
+    /*about part satrts */
+    #about{
+        padding-top:40px;
+        padding-bottom:55px;
+    }
+    /*about part ends */
+
+    /*gallery part starts */
+    #gallery{
+        padding-bottom:55px;
+    }
+    /*gallery part ends */
+
+    /*team part starts */
+    #team .team-member {
+        margin-top:50px;
+    }
+    #team .tean-item{
+        margin-top:20px;
+    }
+    /*team part ends */
+
+    /*testimonial part satrts */
+     #testimonial{
+        padding-bottom:55px;
+    }
+    /*testimonial part ends */
+
+    /*membership part satrts */
+    #membership{
+        padding-bottom:55px;
+    }
+    #membership .member-price h3 span{
+        font-size:38px;
+    }
+    /*membership part ends */
+
+    /*counter part satrts */
+    #counter-up{
+        margin-bottom:10px;
+    }
+    #counter-up .counter-item{
+        margin-bottom:20px;
+    }
+    /*counter part ends */
+
+    /*routine part satrts */
+    #routine{
+        padding-top:20px;
+        padding-bottom:55px;
+    }
+    #routine .nav-tabs .nav-item {
+        width:49%;
+        margin:2px !important;
+    }
+    #routine .main-routine ul li{
+        width:50%;
+    }
+   /*routine part ends */
+
+  /*footer part satrts */
+    footer  .footer-item  .opening-hours,
+    footer  .footer-item  .twitter-feed,
+    footer  .footer-item .footer-contact
+    {
+        margin-bottom:30px !important;
+    }
+    /*footer part ends */
+}
+/*=======================
+ small device css ends
+=========================*/
+
+
+/*========================
+ medium device css starts
+=========================*/
+@media (min-width:768px) and (max-width:991px){
+    /*navbar part starts */
+    .navbar .navbar-brand{
+        position:unset !important;
+        transform:skew(0deg) !important;
+        -webkit-transform:skew(0deg) !important;
+        -moz-transform:skew(0deg) !important;
+        -ms-transform:skew(0deg) !important;
+        -o-transform:skew(0deg) !important;
+        padding:0 20px !important;
+    }
+    .navbar .navbar-brand img{
+        transform:skew(0deg) !important;
+    }
+    .navbar .navbar-toggler{
+        border-color:#fff;
+        margin-right:30px;
+    }
+    .navbar .navbar-toggler i{
+        color:#fff;
+    }
+    .navbar-light .navbar-nav{
+        background:rgba(53, 53, 53,0.6);
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link{
+        text-align:center;
+        color:#fff;
+    }
+    .navbar-light .navbar-nav .nav-link::before{
+        width:0%;
+        height:100%;
+        transition:all linear 0.4s;
+        -webkit-transition:all linear 0.4s;
+        -moz-transition:all linear 0.4s;
+        -ms-transition:all linear 0.4s;
+        -o-transition:all linear 0.4s;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::before{
+        width:100%;
+    }
+    /*navbar part ends */
+
+    /*banner part starts */
+    #banner .bg1 h1::before,
+    #banner .bg1 h1::after,
+    #banner .bg1 h4::before,
+    #banner .bg1 h4::after,
+    #banner .bg1 p::before,
+    #banner .bg1 p::after
+    {
+        display:none;
+    }
+    #banner .bg1 h4{
+        font-size:28px;
+    }
+    #banner .bg1 h1{
+        font-size:56px;
+    }
+    #banner .bg1 p {
+        padding: 0;
+    }
+    #banner .slick-dots{
+        bottom:36px;
+    }
+    /*banner part ends */
+
+    /*about part satrts */
+    #about{
+        padding-top:50px;
+        padding-bottom:65px;
+    }
+    /*about part ends */
+
+    /*gallery part starts */
+    #gallery{
+        padding-bottom:65px;
+    }
+    /*gallery part ends */
+
+    /*team part starts */
+    #team .team-member {
+        margin-top:50px;
+    }
+    #team .tean-item{
+        margin-top:20px;
+    }
+    /*team part ends */
+
+    /*testimonial part satrts */
+    #testimonial{
+        padding-bottom:65px;
+    }
+    /*testimonial part ends */
+
+    /*membership part satrts */
+    #membership{
+        padding-bottom:65px;
+    }
+    #membership .member-price h3 span{
+        font-size:38px;
+    }
+    /*membership part ends */
+
+    /*counter part satrts */
+    #counter-up{
+        margin-bottom:10px;
+    }
+    #counter-up .counter-item{
+        margin-bottom:20px;
+    }
+    /*counter part ends */
+
+    /*routine part satrts */
+    #routine{
+        padding-top:20px;
+        padding-bottom:65px;
+    }
+    #routine .nav-tabs .nav-item {
+        width:49%;
+        margin:2px !important;
+    }
+    /* #routine .main-routine ul li{
+        width:20%;
+    } */
+    /*routine part ends */
+
+    /*footer part satrts */
+    footer  .footer-item  .opening-hours,
+    footer  .footer-item  .twitter-feed,
+    footer  .footer-item .footer-contact
+    {
+        margin-bottom:30px !important;
+    }
+    /*footer part ends */
+
+}
+
+/*=======================
+ medium device css ends
+=========================*/
