@@ -61,7 +61,7 @@ extra small device css starts
         font-size:48px;
     }
     #banner .banner-slider .bg1 p {
-        padding:13px 0px;
+        padding:5px 0px;
     }
     #banner .slick-dots{
         /* bottom:36px; */
@@ -448,4 +448,37 @@ extra small  device css ends
 }
 /*=======================
  medium device css ends
+=========================*/
+
+/*=======================
+large device css starts
+=========================*/
+@media(min-width:992px) and (max-width:1199px) {
+    /*banner part starts */
+    #banner .bg1 h1::before,
+    #banner .bg1 h1::after,
+    #banner .bg1 h4::before,
+    #banner .bg1 h4::after,
+    #banner .bg1 p::before,
+    #banner .bg1 p::after
+    {
+        display:none;
+    }
+    /*banner part ends */
+
+    /*footer part starts */
+    footer .footer-logo {
+        padding-top: 20px !important;
+        margin-bottom: 26px !important;
+    }
+    footer .footer-item .opening-hours ul li span {
+        display: inline-block;
+        width: 85px;
+    }
+    /*footer part ends */
+
+}
+
+/*=======================
+large device css ends
 =========================*/
