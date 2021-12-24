@@ -4,42 +4,43 @@ extra small device css starts
 @media(max-width:575px){
     /*navbar part starts */
     .navbar .navbar-brand{
-        position:unset !important;
-        transform:skew(0deg) !important;
-        -webkit-transform:skew(0deg) !important;
-        -moz-transform:skew(0deg) !important;
-        -ms-transform:skew(0deg) !important;
-        -o-transform:skew(0deg) !important;
-        padding:0 20px !important;
+        position: unset !important;
+        padding: 0 !important;
+        transform: skewX(0deg)  !important;
+        -webkit-transform: skewX(0deg)  !important;
+        -moz-transform: skewX(0deg)  !important;
+        -ms-transform: skewX(0deg)  !important;
+        -o-transform: skewX(0deg)  !important;
     }
     .navbar .navbar-brand img{
-        transform:skew(0deg) !important;
+        transform: skewX(0deg) scale(0.8)!important;
+        -webkit-transform: skewX(0deg) scale(0.8)!important;
+        -moz-transform: skewX(0deg) scale(0.8)!important;
+        -ms-transform: skewX(0deg) scale(0.8)!important;
+        -o-transform: skewX(0deg) scale(0.8)!important;
     }
     .navbar .navbar-toggler{
-        border-color:#fff;
-        margin-right:30px;
+        border-color: #fff !important;
     }
     .navbar .navbar-toggler i{
-        color:#fff;
+        color: #fff !important;
     }
     .navbar-light .navbar-nav{
-        background:rgba(53, 53, 53,0.6);
+        background: rgba(53, 53, 53, 0.7);
     }
-    .navbar-light .navbar-nav .nav-item .nav-link{
-        text-align:center;
-        color:#fff;
+    .navbar-light .navbar-nav .nav-link{
+        text-align: center;
+        z-index: 99;
+    }
+    .navbar-light .navbar-nav .nav-link.active::before{
+        height: 100%;
     }
     .navbar-light .navbar-nav .nav-link::before{
-        width:0%;
-        height:100%;
-        transition:all linear 0.4s;
-        -webkit-transition:all linear 0.4s;
-        -moz-transition:all linear 0.4s;
-        -ms-transition:all linear 0.4s;
-        -o-transition:all linear 0.4s;
+        width: 100%;
+        height: 0;
     }
-    .navbar-light .navbar-nav .nav-link:hover::before{
-        width:100%;
+    .navbar-light .navbar-nav .nav-link:hover:before{
+        height: 100%;
     }
     /*navbar part ends */
 
@@ -59,11 +60,11 @@ extra small device css starts
     #banner .bg1 h1{
         font-size:48px;
     }
-    #banner .bg1 p {
-        padding: 0;
+    #banner .banner-slider .bg1 p {
+        padding:14px 0px;
     }
     #banner .slick-dots{
-        bottom:36px;
+        /* bottom:36px; */
     }
     /*banner part ends */
 
@@ -442,11 +443,9 @@ extra small  device css ends
     footer  .footer-item .footer-contact
     {
         margin-bottom:30px !important;
-    }
+    }   
     /*footer part ends */
-
 }
-
 /*=======================
  medium device css ends
 =========================*/
